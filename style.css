@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header{
+    height:80px;
+    background-color: #015e72;
+    color: white
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+}
+
+.welcome{
+    height: 250px;
+    background-color: #efefef;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomebox{
+    background-color: #797979;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+
+#getintouch{
+    background-color: #ed6b4c;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    height:23px;
+    
+}
+
+.services{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    background-color: white; 
+    padding-left: 20px; 
+    text-align: left;
+    
+}
+#servicetext{
+    color:#1382fe;
+    margin:0 ;
+
+}
+
+.about_us{
+    background-color: #efefef;
+    height: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    background-color: #f8f9fa; 
+    padding-left: 20px; 
+    text-align: left;
+    
+}
+#abouttext{
+    color:#44b05c;
+    margin: 5px 0;
+}
+
+.contact_us{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-left: 20px; 
+    text-align: left;
+    
+}
+
+#contact_us{
+    color:#de4654;
+    margin: 5px;
+}
+
+footer{
+    background-color: #015e72;
+    height:50px;
+    color: white;
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+
